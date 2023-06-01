@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Playfair+Display&family=Roboto:ital,wght@0,500;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.li-nav{
+    list-style: none;
+    margin: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;   
+}
+
+a{ 
+    text-decoration:none;
+    color: #F3F3F3;    
+ }
+
+ main{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 35px 19px;
+ }
+ 
+ .podio-pizza{
+     background-color: #FFFFFF;
+     width: 490px;
+     border-radius: 5px;
+     margin-left: 5px;
+    padding-top: 26px;
+}
+.podio-titulo{
+    text-align: center;
+}
+.main-pizza{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+}
+ ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+ }
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222222;
+}
+.ul-footer{
+    display: flex;
+    flex-direction: column;
+}
